@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build",
+			"type": "shell",
+			"command": "./mvnw clean compile",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "Clean",
+			"type": "shell",
+			"command": "./mvnw clean",
+			"group": "none"
+		}
+	]
+}
